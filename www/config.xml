@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
+<widget xmlns     = 'http://www.w3.org/ns/widgets'
+        xmlns:gap = 'http://phonegap.com/ns/1.0'
         id        = "com.FireNear.alertapp"
         version   = "0.0.1">
     <name>FireNear</name>
@@ -9,13 +9,9 @@
         FireNear
     </description>
 
-    <author href="http://firenear.com" email="info@firenear.com">
-        FireNear
-    </author>
-
     <feature name="http://api.phonegap.com/1.0/device" />
 
-    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="phonegap-version" value="2.2.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
@@ -45,5 +41,5 @@
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
-	<gap:plugin name="PushPlugin"/>
+        <gap:plugin name="PushPlugin"/>
 </widget>
